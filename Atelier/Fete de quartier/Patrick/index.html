@@ -5,24 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../reveal/dist/reveal.css">
-    <link rel="stylesheet" href="../reveal/dist/theme/blood.css">
+    <!-- https://icon-icons.com/icon/japan-shrine-japanese-gate-architecture-building-landmark/127320 -->
+    <link rel="icon" type="image/x-icon" href="../../../source/img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="../../../source/img/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="../../../source/img/favicon.png">
 
-    <title>Quizz</title>
+    <link rel="stylesheet" href="../../../source/reveal/dist/reveal.css">
+    <link rel="stylesheet" href="../../../source/reveal/dist/theme/blood.css">
+
+    <title>Quizz Animé/Manga</title>
 </head>
+<script src="../../../source/script/heure.js"></script>
 <body>
     <div class="reveal">
         <div class="slides">
             <section data-background-gradient="linear-gradient(to top, #283b95, #BC066A)">
                 <h1>Quizz Manga Anime</h1>
                 <p>Bienvenue pour ce quizz musicale et visuel</p>
+                <p id="date_heure"></p>
             </section>
             <section>
                 <section data-background-gradient="linear-gradient(to left, #283b95, #BC066A)">
                     <h1>Musique</h1>
                 </section>
                 <section>De quelle licence est tirer ce son ?<br>
-                    <audio controls preload="auto"  src="../song/bokunoheroacademia.mp3"></audio>
+                    <audio controls preload="auto"  src="../../../source/song/bokunoheroacademia.mp3"></audio>
                 </section>
                 <section>
                     <div class="r-stack">
@@ -52,7 +59,7 @@
                     <h1>Musique</h1>
                 </section>
                 <section>De quelle animé vient ce son ?<br>
-                    <audio controls preload="auto" src="../song/painnaruto.mp3"></audio>
+                    <audio controls preload="auto" src="../../../source/song/painnaruto.mp3"></audio>
                 </section>
                 <section>
                     <div class="r-stack">
@@ -67,7 +74,7 @@
                     <h1>Musique</h1>
                 </section>
                 <section>De quelle animé est tirer cette musique ?<br>
-                    <audio controls preload="auto" src="../song/dejavuInitialD.mp3"></audio>
+                    <audio controls preload="auto" src="../../../source/song/dejavuInitialD.mp3"></audio>
                 </section>
                 <section>
                     <div class="r-stack">
@@ -82,7 +89,7 @@
                     <h1>Musique</h1>
                 </section>
                 <section>D'où vient ce son ?<br>
-                    <audio controls preload="auto" src="../song/chainsaw-man-oppening.mp3"></audio>
+                    <audio controls preload="auto" src="../../../source/song/chainsaw-man-oppening.mp3"></audio>
                 </section>
                 <section>
                     <div class="r-stack">
@@ -127,7 +134,7 @@
                 <section>🎶</section>
                 <section>
                     De quel animé est tirée cette opening ?
-                    <audio controls src="../song/overlord-opening.mp3"></audio>
+                    <audio controls src="../../../source/song/overlord-opening.mp3"></audio>
                 </section>
                 <section>
                     <div class="r-stack">
@@ -143,8 +150,8 @@
         </div>
     </div>
     <script type="module">
-        import Reveal from '/reveal/dist/reveal.esm.js'
-        import RevealNotes from '/reveal/plugin/notes/notes.esm.js'
+        import Reveal from '../../../source/reveal/dist/reveal.esm.js'
+        import RevealNotes from '../../../source/reveal/plugin/notes/notes.esm.js'
         
         Reveal.initialize({
             
