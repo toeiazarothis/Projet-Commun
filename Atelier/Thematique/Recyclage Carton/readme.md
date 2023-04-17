@@ -3,9 +3,9 @@
 ## Pourquoi ?
 Pouvoir recycler les cartons pour créer des objets
 
-#
+## Objectif pedagogique
 
-# Réalisation du projet
+## Réalisation du projet
 
 ## Liste du materiel
 
@@ -21,7 +21,8 @@ Pouvoir recycler les cartons pour créer des objets
 ##
 
 
-## Source
+### Source
+
 https://www.youtube.com/watch?v=qF3U1Pqueps
 
 https://www.thingiverse.com/thing:3912997
